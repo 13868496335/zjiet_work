@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1/sell?characterEncoding=utf-8&useSSL=false
+  session:
+    store-type: none
+server:
+   session:
+     timeout: 600
+   port: 8060
+security:
+  basic:
+    enabled: false
+
+
+
+com:
+   security:
+          social:
+            qq:
+             app-id:
+             app-secret:
+             providerId: callback.do
+            weixin:
+             app-id: wxd99431bbff8305a0
+             app-secret: 60f78681d063590a469f1b297feff3c4
+            filterProcessesUrl: /qqLogin
+          browser:
+            signUpUrl: /demo-signUp.html
+
+

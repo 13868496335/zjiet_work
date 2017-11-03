@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="com.zjiet.web.controller.ProductControllerTest" time="0.315" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2017.1.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\boot\test\zjiet-security"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\boot\test\zjiet-security"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PC\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\java\apache-maven-3.5.0\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_144\bin;C:\elasticsearch5.5.2\elasticsearch;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\phptools\php7.1;C:\phptools \php7.1\ext;c:\windows\system32;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;D:\java\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;D:\redis\redis-3.2.9;F:\linux\psftp;D:\boot\gradle-3.5\bin;C:\Program Files\Git\cmd;D:\python;C:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\nodeJS\nodejs\;%appdata%\npm;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Roaming\npm;C:\Users\PC\AppData\Local\atom\bin;."/>
+    <property name="maven.conf" value="D:\java\apache-maven-3.5.0/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\java\apache-maven-3.5.0\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\PC"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="PC"/>
+    <property name="java.class.path" value="D:\java\apache-maven-3.5.0\boot\plexus-classworlds-2.5.2.jar;D:\idea\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.1.4 -s D:\java\apache-maven-3.5.0\conf\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\java\apache-maven-3.5.0"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.zjiet.web.controller.ProductControllerTest" name="whenQuerySuccess" time="0.315">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Status expected:&lt;200&gt; but was:&lt;404&gt;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:665)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at com.zjiet.web.controller.ProductControllerTest.whenQuerySuccess(ProductControllerTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>14:05:19.635 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.zjiet.web.controller.ProductControllerTest]
+14:05:19.642 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:05:19.659 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:05:19.678 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.zjiet.web.controller.ProductControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:05:19.699 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.zjiet.web.controller.ProductControllerTest], using SpringBootContextLoader
+14:05:19.704 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.zjiet.web.controller.ProductControllerTest]: class path resource [com/zjiet/web/controller/ProductControllerTest-context.xml] does not exist
+14:05:19.704 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.zjiet.web.controller.ProductControllerTest]: class path resource [com/zjiet/web/controller/ProductControllerTestContext.groovy] does not exist
+14:05:19.704 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.zjiet.web.controller.ProductControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:05:19.705 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.zjiet.web.controller.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:05:19.762 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.zjiet.web.controller.ProductControllerTest]
+14:05:19.771 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:05:19.772 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:05:19.772 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:05:19.796 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/zjiet/web/controller/] to resources [URL [file:/D:/boot/test/zjiet-security/zjiet-security-demo/target/test-classes/com/zjiet/web/controller/], URL [file:/D:/boot/test/zjiet-security/zjiet-security-demo/target/classes/com/zjiet/web/controller/]]
+14:05:19.796 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\boot\test\zjiet-security\zjiet-security-demo\target\test-classes\com\zjiet\web\controller]
+14:05:19.797 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\boot\test\zjiet-security\zjiet-security-demo\target\test-classes\com\zjiet\web\controller] for files matching pattern [D:/boot/test/zjiet-security/zjiet-security-demo/target/test-classes/com/zjiet/web/controller/*.class]
+14:05:19.802 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\boot\test\zjiet-security\zjiet-security-demo\target\classes\com\zjiet\web\controller]
+14:05:19.802 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\boot\test\zjiet-security\zjiet-security-demo\target\classes\com\zjiet\web\controller] for files matching pattern [D:/boot/test/zjiet-security/zjiet-security-demo/target/classes/com/zjiet/web/controller/*.class]
+14:05:19.803 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/zjiet/web/controller/*.class] to resources [file [D:\boot\test\zjiet-security\zjiet-security-demo\target\test-classes\com\zjiet\web\controller\ProductControllerTest.class], file [D:\boot\test\zjiet-security\zjiet-security-demo\target\classes\com\zjiet\web\controller\ProductController.class], file [D:\boot\test\zjiet-security\zjiet-security-demo\target\classes\com\zjiet\web\controller\UserController.class]]
+14:05:19.905 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/zjiet/web/] to resources [URL [file:/D:/boot/test/zjiet-security/zjiet-security-demo/target/test-classes/com/zjiet/web/], URL [file:/D:/boot/test/zjiet-security/zjiet-security-demo/target/classes/com/zjiet/web/]]
+14:05:19.906 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\boot\test\zjiet-security\zjiet-security-demo\target\test-classes\com\zjiet\web]
+14:05:19.906 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\boot\test\zjiet-security\zjiet-security-demo\target\test-classes\com\zjiet\web] for files matching pattern [D:/boot/test/zjiet-security/zjiet-security-demo/target/test-classes/com/zjiet/web/*.class]
+14:05:19.908 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\boot\test\zjiet-security\zjiet-security-demo\target\classes\com\zjiet\web]
+14:05:19.908 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\boot\test\zjiet-security\zjiet-security-demo\target\classes\com\zjiet\web] for files matching pattern [D:/boot/test/zjiet-security/zjiet-security-demo/target/classes/com/zjiet/web/*.class]
+14:05:19.909 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/zjiet/web/*.class] to resources []
+14:05:19.911 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/zjiet/] to resources [URL [file:/D:/boot/test/zjiet-security/zjiet-security-demo/target/test-classes/com/zjiet/], URL [file:/D:/boot/test/zjiet-security/zjiet-security-demo/target/classes/com/zjiet/], URL [jar:file:/D:/boot/test/zjiet-security/zjiet-security-browser/target/zjiet-security-browser-1.0-SNAPSHOT.jar!/com/zjiet/], URL [jar:file:/D:/boot/test/zjiet-security/zjiet-security-core/target/zjiet-security-core-1.0-SNAPSHOT.jar!/com/zjiet/]]
+14:05:19.911 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\boot\test\zjiet-security\zjiet-security-demo\target\test-classes\com\zjiet]
+14:05:19.912 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\boot\test\zjiet-security\zjiet-security-demo\target\test-classes\com\zjiet] for files matching pattern [D:/boot/test/zjiet-security/zjiet-security-demo/target/test-classes/com/zjiet/*.class]
+14:05:19.912 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\boot\test\zjiet-security\zjiet-security-demo\target\classes\com\zjiet]
+14:05:19.913 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\boot\test\zjiet-security\zjiet-security-demo\target\classes\com\zjiet] for files matching pattern [D:/boot/test/zjiet-security/zjiet-security-demo/target/classes/com/zjiet/*.class]
+14:05:19.919 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/boot/test/zjiet-security/zjiet-security-browser/target/zjiet-security-browser-1.0-SNAPSHOT.jar]
+14:05:19.920 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/boot/test/zjiet-security/zjiet-security-core/target/zjiet-security-core-1.0-SNAPSHOT.jar]
+14:05:19.920 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/zjiet/*.class] to resources [file [D:\boot\test\zjiet-security\zjiet-security-demo\target\classes\com\zjiet\DemoApplication.class]]
+14:05:19.972 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\boot\test\zjiet-security\zjiet-security-demo\target\classes\com\zjiet\DemoApplication.class]
+14:05:19.975 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.zjiet.DemoApplication for test class com.zjiet.web.controller.ProductControllerTest
+14:05:19.980 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.zjiet.web.controller.ProductControllerTest]: using defaults.
+14:05:19.985 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:05:20.040 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@161b062a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@17c1bced, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2d9d4f9d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4034c28c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@e50a6f6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14ec4505, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@53ca01a2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@358c99f5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3ee0fea4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@48524010, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4b168fa9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a84f40f]
+14:05:20.042 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.zjiet.web.controller.ProductControllerTest]
+14:05:20.042 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.zjiet.web.controller.ProductControllerTest]
+14:05:20.054 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.zjiet.web.controller.ProductControllerTest]
+14:05:20.054 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.zjiet.web.controller.ProductControllerTest]
+14:05:20.058 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5db45159 testClass = ProductControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6107227e testClass = ProductControllerTest, locations = &apos;{}&apos;, classes = &apos;{class com.zjiet.DemoApplication}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}&apos;, contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@4b553d26, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@480bdb19, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2a742aa2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7113b13f], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.boot.test.context.SpringBootContextLoader&apos;, parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+14:05:20.059 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.zjiet.web.controller.ProductControllerTest]
+14:05:20.059 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.zjiet.web.controller.ProductControllerTest]
+14:05:20.171 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:05:20.172 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:05:20.172 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:05:20.173 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+14:05:20.179 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+14:05:20.180 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___&apos;_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | &apos;_ | &apos;_| | &apos;_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  &apos;  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.6.RELEASE)
+
+2017-10-25 14:05:20.802  INFO 11160 --- [           main] c.z.w.controller.ProductControllerTest   : Starting ProductControllerTest on doublechuang with PID 11160 (started by PC in D:\boot\test\zjiet-security\zjiet-security-demo)
+2017-10-25 14:05:20.804  INFO 11160 --- [           main] c.z.w.controller.ProductControllerTest   : No active profile set, falling back to default profiles: default
+2017-10-25 14:05:20.955  INFO 11160 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4f32a3ad: startup date [Wed Oct 25 14:05:20 CST 2017]; root of context hierarchy
+2017-10-25 14:05:22.598  INFO 11160 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-25 14:05:22.889  INFO 11160 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-10-25 14:05:22.932  INFO 11160 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zjiet.repository.ProductInfoRepository.
+2017-10-25 14:05:22.936  INFO 11160 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zjiet.repository.UserInfoRepository.
+2017-10-25 14:05:23.465  INFO 11160 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 &apos;javax.inject.Inject&apos; annotation found and supported for autowiring
+2017-10-25 14:05:25.105  INFO 11160 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit &apos;default&apos;
+2017-10-25 14:05:25.123  INFO 11160 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-25 14:05:25.207  INFO 11160 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-25 14:05:25.208  INFO 11160 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-10-25 14:05:25.210  INFO 11160 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-10-25 14:05:25.295  INFO 11160 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-25 14:05:25.605  INFO 11160 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-25 14:05:26.411  INFO 11160 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit &apos;default&apos;
+2017-10-25 14:05:27.786  INFO 11160 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4f32a3ad: startup date [Wed Oct 25 14:05:20 CST 2017]; root of context hierarchy
+2017-10-25 14:05:27.951  INFO 11160 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/product/findOne],methods=[POST]}&quot; onto public com.zjiet.VO.ResultVO com.zjiet.web.controller.ProductController.findByProductInfoStock(com.zjiet.entry.ProductInfo,org.springframework.validation.BindingResult)
+2017-10-25 14:05:27.953  INFO 11160 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/product/findByStock/{id:\d+}],methods=[GET]}&quot; onto public com.zjiet.VO.ResultVO com.zjiet.web.controller.ProductController.findByProductInfoStock(java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 14:05:27.955  INFO 11160 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user/registerLogin],methods=[GET]}&quot; onto public com.zjiet.VO.ResultVO com.zjiet.web.controller.UserController.findRegisterLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 14:05:27.956  INFO 11160 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/user/findByDate],methods=[GET]}&quot; onto public com.zjiet.VO.ResultVO com.zjiet.web.controller.UserController.findByLoginDateBefore(java.util.Date)
+2017-10-25 14:05:27.958  INFO 11160 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-25 14:05:27.959  INFO 11160 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-25 14:05:28.135  INFO 11160 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 14:05:28.135  INFO 11160 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 14:05:28.160  INFO 11160 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2017-10-25 14:05:28.202  INFO 11160 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-25 14:05:29.026  INFO 11160 --- [           main] c.z.w.controller.ProductControllerTest   : Started ProductControllerTest in 8.832 seconds (JVM running for 10.143)
+2017-10-25 14:05:29.151  INFO 11160 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet &apos;&apos;
+2017-10-25 14:05:29.152  INFO 11160 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet &apos;&apos;: initialization started
+2017-10-25 14:05:29.177  INFO 11160 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet &apos;&apos;: initialization completed in 24 ms
+</system-out>
+  </testcase>
+</testsuite>
